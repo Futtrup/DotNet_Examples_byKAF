@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_01_PullDriven"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_02_PushDriven", "DataExchange_02_PushDriven\DataExchange_02_PushDriven.csproj", "{56C5E564-8F59-4654-BC5B-C845E71BAEF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_03_INotifyPropertyChanged", "DataExchange_03_INotifyPropertyChanged\DataExchange_03_INotifyPropertyChanged.csproj", "{E4507209-1388-4E27-A0B6-CE8076E7338C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4507209-1388-4E27-A0B6-CE8076E7338C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4507209-1388-4E27-A0B6-CE8076E7338C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4507209-1388-4E27-A0B6-CE8076E7338C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4507209-1388-4E27-A0B6-CE8076E7338C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
