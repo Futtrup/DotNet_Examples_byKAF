@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.2092
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread_01", "MultiThread_01\MultiThread_01.csproj", "{3643ADCE-3A22-4702-8194-3C7BC51C0790}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread_01_UpdateUI", "MultiThread_01\MultiThread_01_UpdateUI.csproj", "{3643ADCE-3A22-4702-8194-3C7BC51C0790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread_02", "MultiThread_02\MultiThread_02.csproj", "{FBBA4342-4721-4927-A369-F6BFE5FC4B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread_02_UpdateUI", "MultiThread_02\MultiThread_02_UpdateUI.csproj", "{FBBA4342-4721-4927-A369-F6BFE5FC4B23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_01_PullDriven", "DataExchange_01_PullDriven\DataExchange_01_PullDriven.csproj", "{EFB3D66C-B80B-4EBE-AFED-20BC01B56252}"
 EndProject
