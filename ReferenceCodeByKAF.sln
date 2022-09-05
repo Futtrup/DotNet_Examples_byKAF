@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThread_02", "MultiThre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_01_PullDriven", "DataExchange_01_PullDriven\DataExchange_01_PullDriven.csproj", "{EFB3D66C-B80B-4EBE-AFED-20BC01B56252}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExchange_02_PushDriven", "DataExchange_02_PushDriven\DataExchange_02_PushDriven.csproj", "{56C5E564-8F59-4654-BC5B-C845E71BAEF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EFB3D66C-B80B-4EBE-AFED-20BC01B56252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB3D66C-B80B-4EBE-AFED-20BC01B56252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB3D66C-B80B-4EBE-AFED-20BC01B56252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C5E564-8F59-4654-BC5B-C845E71BAEF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

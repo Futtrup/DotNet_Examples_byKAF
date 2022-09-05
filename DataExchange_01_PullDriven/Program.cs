@@ -14,7 +14,7 @@ namespace DataExchange_01_PullDriven
 
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a simple app showing an implementation of pull driven data exhange");
+            Console.WriteLine("This is a simple app showing an implementation of PULL driven data exhange");
 
             dataProvider = new DataProviderClass();
             dataProvider.StartDataProviding_SepperateThread();
