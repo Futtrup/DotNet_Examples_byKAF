@@ -56,6 +56,8 @@ namespace Server_01_TCP
 
         private void ClientHandler(object obj)
         {
+            string clientMessage, returnMessage;
+
             using (var client = (TcpClient)obj)
             using (var stream = client.GetStream())
             {
@@ -65,8 +67,13 @@ namespace Server_01_TCP
                 {
                     byte[] buf = new byte[1024];
                     int received = stream.Read(buf, 0, buf.Length);
-                    string clientMessage = Encoding.ASCII.GetString(buf, 0, received);
+                    clientMessage = Encoding.ASCII.GetString(buf, 0, received);
                     Debug("Message from client: " + clientMessage);
+
+                    returnMessage = clientMessage.ToUpper();
+                    buf = Encoding.ASCII.GetBytes(returnMessage);
+                    stream.Write(buf, 0, buf.Length);
+                    Debug("Message returned to client: " + returnMessage);
                 }
                 else
                 {

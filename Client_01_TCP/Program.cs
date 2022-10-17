@@ -11,14 +11,27 @@ namespace Client_01_TCP
 {
     class Program
     {
+        static TcpClient client;
+
         static void Main(string[] args)
         {
             Console.WriteLine("Client app starting...");
             Thread.Sleep(1000);
-            Console.WriteLine("Connect and send message to server");
-            Connect("127.0.0.1", "Hello from client");
-            Console.WriteLine("Message sent... Done...");
-            Thread.Sleep(1000);
+            Test_01(3);
+            Thread.Sleep(5000);
+        }
+
+        static void Test_01(int loops)
+        {
+            for (int i = 0; i < loops; i++)
+            {
+                Console.WriteLine("Connect and send message to server");
+                Connect("127.0.0.1", $"Hello from client: {i}");
+                Console.WriteLine("Message sent... Done...");
+                Thread.Sleep(1000);
+            }
+
+            Console.WriteLine("Test 01 DONE");
         }
 
         static void Connect(String server, String message)
@@ -30,7 +43,7 @@ namespace Client_01_TCP
                 // connected to the same address as specified by the server, port
                 // combination.
                 Int32 port = 8000;
-                TcpClient client = new TcpClient(server, port);
+                client = new TcpClient(server, port);
 
                 // Translate the passed message into ASCII and store it as a Byte array.
                 Byte[] data = System.Text.Encoding.ASCII.GetBytes(message);
