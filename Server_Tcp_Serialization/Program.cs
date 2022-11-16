@@ -16,9 +16,7 @@ namespace Server_Tcp_Serialization
             Console.WriteLine("Starting Tcp Server listening for Tcp Clients for Deserialization of objects");
 
             srv = new Server();
-            Thread srvThread = new Thread(srv.StartServer);
-            srvThread.IsBackground = false;
-            srvThread.Start();
+            srv.StartServer();
 
             Console.ReadLine();
         }
